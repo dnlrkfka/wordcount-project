@@ -1,0 +1,12 @@
+<h1>word count</h1>
+
+<form action="{% url 'count' %}">
+  <!-- url 고치기 편해.. -->
+  <textarea name="fulltext" cols="40" rows="5">
+
+  </textarea>
+  <br>
+  <input type="submit" value="Count!"/>
+</form>
+<a href="{% url 'about' %}">go to about us</a>
+<!-- python 쓰려면.. {}로... 감싸  -->
